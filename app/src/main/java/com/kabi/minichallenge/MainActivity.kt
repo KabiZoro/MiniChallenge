@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.safeContent
 import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
+import com.kabi.minichallenge.sept25DesignTheFest.DynamicUpdateScreen
 import com.kabi.minichallenge.sept25DesignTheFest.ExpandableListScreen
 import com.kabi.minichallenge.ui.theme.MiniChallengeTheme
 
@@ -24,7 +25,10 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     contentWindowInsets = WindowInsets.safeContent
                 ) { innerPadding ->
-                    ExpandableListScreen(
+                    /*ExpandableListScreen(
+                        modifier = Modifier.padding(innerPadding)
+                    )*/
+                    DynamicUpdateScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
