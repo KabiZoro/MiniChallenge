@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.safeContent
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import com.kabi.minichallenge.sept25DesignTheFest.AccessibilityScreen
 import com.kabi.minichallenge.sept25DesignTheFest.MapScreen
 import com.kabi.minichallenge.ui.theme.MiniChallengeTheme
 
@@ -31,12 +32,16 @@ class MainActivity : ComponentActivity() {
                     /*DynamicUpdateScreen(
                         modifier = Modifier.padding(innerPadding)
                     )*/
-                    MapScreen(
+                    /*MapScreen(
                         modifier = Modifier
                             .padding(innerPadding)
                             .background(
                                 color = Color(0xFFFFFFF0)
                             )
+                    )*/
+                    AccessibilityScreen(
+                        modifier = Modifier
+                            .padding(innerPadding)
                     )
                 }
             }
