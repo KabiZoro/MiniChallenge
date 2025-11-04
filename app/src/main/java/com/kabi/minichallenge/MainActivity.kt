@@ -16,6 +16,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Devices.TABLET
 import androidx.compose.ui.tooling.preview.Preview
 import com.kabi.minichallenge.june25BdayCeleb.BirthdayCardScreen
+import com.kabi.minichallenge.june25BdayCeleb.CakeLightScreen
+import com.kabi.minichallenge.june25BdayCeleb.CandlesLightingScreen
 import com.kabi.minichallenge.sept25DesignTheFest.AccessibilityScreen
 import com.kabi.minichallenge.sept25DesignTheFest.MapScreen
 import com.kabi.minichallenge.ui.theme.MiniChallengeTheme
@@ -47,7 +49,10 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier
                             .padding(innerPadding)
                     )*/
-                    BirthdayCardScreen(
+                    /*BirthdayCardScreen(
+                        modifier = Modifier.padding(innerPadding)
+                    )*/
+                    CakeLightScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
