@@ -18,6 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.kabi.minichallenge.june25BdayCeleb.BirthdayCardScreen
 import com.kabi.minichallenge.june25BdayCeleb.CakeLightScreen
 import com.kabi.minichallenge.june25BdayCeleb.CandlesLightingScreen
+import com.kabi.minichallenge.june25BdayCeleb.GiftMemoryMatchScreen
 import com.kabi.minichallenge.sept25DesignTheFest.AccessibilityScreen
 import com.kabi.minichallenge.sept25DesignTheFest.MapScreen
 import com.kabi.minichallenge.ui.theme.MiniChallengeTheme
@@ -52,7 +53,10 @@ class MainActivity : ComponentActivity() {
                     /*BirthdayCardScreen(
                         modifier = Modifier.padding(innerPadding)
                     )*/
-                    CakeLightScreen(
+                    /*CakeLightScreen(
+                        modifier = Modifier.padding(innerPadding)
+                    )*/
+                    GiftMemoryMatchScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
