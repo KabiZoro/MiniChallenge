@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">MiniChallenge</string>
+
+    <string name="status_attending">Attending</string>
+    <string name="status_not_coming">Not Coming</string>
+    <string name="status_maybe">Maybe</string>
+
+    <string name="event_venue_setup">Venue Setup</string>
+    <string name="event_welcome_arrival">Welcome &amp; Guest Arrival</string>
+    <string name="event_cake_cutting">Cake Cutting Ceremony</string>
+    <string name="event_party_games">Party Games Begin</string>
+    <string name="event_face_painting">Face Painting &amp; Photos</string>
+    <string name="event_dinner">Dinner is Served</string>
+    <string name="event_speeches">Speeches &amp; Toasts</string>
+    <string name="event_dance_floor">Dance Floor Opens</string>
+    <string name="event_goodbyes">Thank You &amp; Goodbyes</string>
+
+    <string name="gift_journal">Personalized journal</string>
+    <string name="gift_mug">Handcrafted ceramic mug</string>
+    <string name="gift_chocolate">Belgian chocolate sampler</string>
+    <string name="gift_catnip">Catnip toy &amp; treats</string>
+    <string name="gift_photo_frame">Photo frame with fairy lights</string>
+    <string name="gift_book">Classic novel: “Things Fall Apart”</string>
+    <string name="gift_painting">Watercolor painting set</string>
+    <string name="gift_speaker">Bluetooth speaker</string>
+    <string name="gift_bakery_card">Gift card to local bakery</string>
+    <string name="gift_bracelet">Custom charm bracelet</string>
+
+    <string name="venue_setup_details">Join us for the Cake Cutting Ceremony! This sweet moment marks the highlight of our celebration, where we gather to share laughter, joy, and of course, delicious cake. Let\'s make some wonderful memories together!</string>
+    <string name="welcome_arrival_details">Guests arrive, welcome drinks are served.</string>
+    <string name="cake_cutting_details">Time for the birthday song and cake cutting ceremony.</string>
+    <string name="party_games_details">Fun and interactive games for all guests.</string>
+    <string name="face_painting_details">A professional artist will be available for face painting.</string>
+    <string name="dinner_details">Dinner is served. Enjoy the buffet!</string>
+    <string name="speeches_details">A moment for friends and family to share their thoughts.</string>
+    <string name="dance_floor_details">The DJ starts the music. Time to dance!</string>
+    <string name="goodbyes_details">Party concludes. Thank you for celebrating with us!</string>
+
 </resources>

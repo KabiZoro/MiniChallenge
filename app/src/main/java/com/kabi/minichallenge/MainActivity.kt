@@ -19,6 +19,7 @@ import com.kabi.minichallenge.june25BdayCeleb.BirthdayCardScreen
 import com.kabi.minichallenge.june25BdayCeleb.CakeLightScreen
 import com.kabi.minichallenge.june25BdayCeleb.CandlesLightingScreen
 import com.kabi.minichallenge.june25BdayCeleb.GiftMemoryMatchScreen
+import com.kabi.minichallenge.june25BdayCeleb.PartyHostDashBoard
 import com.kabi.minichallenge.sept25DesignTheFest.AccessibilityScreen
 import com.kabi.minichallenge.sept25DesignTheFest.MapScreen
 import com.kabi.minichallenge.ui.theme.MiniChallengeTheme
@@ -56,7 +57,10 @@ class MainActivity : ComponentActivity() {
                     /*CakeLightScreen(
                         modifier = Modifier.padding(innerPadding)
                     )*/
-                    GiftMemoryMatchScreen(
+                    /*GiftMemoryMatchScreen(
+                        modifier = Modifier.padding(innerPadding)
+                    )*/
+                    PartyHostDashBoard(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

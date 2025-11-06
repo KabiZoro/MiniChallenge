@@ -41,6 +41,9 @@ android {
 
 dependencies {
 
+    implementation(libs.androidx.compose.material3.adaptive.navigation.suite)
+    implementation(libs.androidx.compose.material3.adaptive.navigation)
+
     implementation("androidx.constraintlayout:constraintlayout-compose:1.1.1")
 
     implementation("androidx.compose.material:material-icons-core:1.7.8")
