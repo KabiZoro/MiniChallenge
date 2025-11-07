@@ -41,6 +41,8 @@ android {
 
 dependencies {
 
+    implementation("com.google.accompanist:accompanist-permissions:0.32.0")
+
     implementation(libs.androidx.compose.material3.adaptive.navigation.suite)
     implementation(libs.androidx.compose.material3.adaptive.navigation)
 

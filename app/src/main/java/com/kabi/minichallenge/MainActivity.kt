@@ -18,6 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.kabi.minichallenge.june25BdayCeleb.BirthdayCardScreen
 import com.kabi.minichallenge.june25BdayCeleb.CakeLightScreen
 import com.kabi.minichallenge.june25BdayCeleb.CandlesLightingScreen
+import com.kabi.minichallenge.june25BdayCeleb.CountdownCakeScreen
 import com.kabi.minichallenge.june25BdayCeleb.GiftMemoryMatchScreen
 import com.kabi.minichallenge.june25BdayCeleb.PartyHostDashBoard
 import com.kabi.minichallenge.sept25DesignTheFest.AccessibilityScreen
@@ -60,7 +61,10 @@ class MainActivity : ComponentActivity() {
                     /*GiftMemoryMatchScreen(
                         modifier = Modifier.padding(innerPadding)
                     )*/
-                    PartyHostDashBoard(
+                    /*PartyHostDashBoard(
+                        modifier = Modifier.padding(innerPadding)
+                    )*/
+                    CountdownCakeScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
