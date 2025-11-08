@@ -207,7 +207,7 @@ fun cakeNotification(
         val channel = NotificationChannel(
             cakeChannelId,
             "Cake Notification",
-            NotificationManagerCompat.IMPORTANCE_DEFAULT
+            NotificationManager.IMPORTANCE_DEFAULT
         ).apply {
             description = "Notification that timer ends"
         }
@@ -224,7 +224,7 @@ fun cakeNotification(
         .setPriority(NotificationCompat.PRIORITY_DEFAULT)
 
     with(NotificationManagerCompat.from(context)) {
-        notify(cakeNotificationId, builder.build())
+//        notify(cakeNotificationId, builder.build())
     }
 }
 

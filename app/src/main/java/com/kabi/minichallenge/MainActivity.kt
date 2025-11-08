@@ -21,6 +21,7 @@ import com.kabi.minichallenge.june25BdayCeleb.CandlesLightingScreen
 import com.kabi.minichallenge.june25BdayCeleb.CountdownCakeScreen
 import com.kabi.minichallenge.june25BdayCeleb.GiftMemoryMatchScreen
 import com.kabi.minichallenge.june25BdayCeleb.PartyHostDashBoard
+import com.kabi.minichallenge.nov25BlackFriday.StockTrackerScreen
 import com.kabi.minichallenge.sept25DesignTheFest.AccessibilityScreen
 import com.kabi.minichallenge.sept25DesignTheFest.MapScreen
 import com.kabi.minichallenge.ui.theme.MiniChallengeTheme
@@ -64,7 +65,10 @@ class MainActivity : ComponentActivity() {
                     /*PartyHostDashBoard(
                         modifier = Modifier.padding(innerPadding)
                     )*/
-                    CountdownCakeScreen(
+                    /*CountdownCakeScreen(
+                        modifier = Modifier.padding(innerPadding)
+                    )*/
+                    StockTrackerScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
