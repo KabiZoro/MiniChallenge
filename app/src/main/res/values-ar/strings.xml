@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="switch_language">التبديل إلى الإنجليزية</string>
+    <string name="guess_vincent_sneakers">حذاء رياضي جيس فينسنت</string>
+    <string name="armani_t_shirt">تيشيرت أرماني</string>
+    <string name="hoodie_with_shirt">عبوة من قطعتين من هودي وقميص</string>
+    <string name="gant_cotton_t_shirt">تيشيرت قطني من غانت</string>
+    <string name="united_colors_of_benetton_cotton_shirt">قميص قطني من يونايتد كولورز أوف بينيتون</string>
+    <string name="armani_exchange_t_shirt_2_pack">تيشيرت أرماني إكستشينج عبوة من قطعتين</string>
+    <string name="armani_exchange_t_shirt">تيشيرت أرماني إكستشينج</string>
+    <string name="daniel_wellington">دانييل ويلينجتون</string>
+</resources>

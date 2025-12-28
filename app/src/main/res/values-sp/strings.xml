@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="switch_language">Cambiar al árabe</string>
+    <string name="guess_vincent_sneakers">Zapatillas Guess VINCENT</string>
+    <string name="armani_t_shirt">Camiseta de Armani</string>
+    <string name="hoodie_with_shirt">Sudadera con capucha y camiseta (pack de 2)</string>
+    <string name="gant_cotton_t_shirt">Camiseta de algodón Gant</string>
+    <string name="united_colors_of_benetton_cotton_shirt">Camisa de algodón United Colors of Benetton</string>
+    <string name="armani_exchange_t_shirt_2_pack">Paquete de 2 camisetas de Armani Exchange</string>
+    <string name="armani_exchange_t_shirt">Camiseta de Armani Exchange</string>
+    <string name="daniel_wellington">Daniel Wellington</string>
+</resources>

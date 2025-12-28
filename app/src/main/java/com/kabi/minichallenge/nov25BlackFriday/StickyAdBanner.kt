@@ -224,7 +224,7 @@ val productList = listOf(
 // product card
 
 @Composable
-fun ProductCard(product: Product) {
+fun ProductItemCard(product: Product) {
     Box(
         modifier = Modifier
             .height(IntrinsicSize.Max)
@@ -268,7 +268,7 @@ fun ProductCard(product: Product) {
 @Preview
 @Composable
 private fun ProductCardPreview() {
-    ProductCard(
+    ProductItemCard(
         product = Product(
             id = 1,
             name = "Google next Hub (2nd Gen)",
@@ -325,7 +325,7 @@ fun ProductGrid(
             }
         ) { item ->
             when (item) {
-                is Product -> ProductCard(product = item)
+                is Product -> ProductItemCard(product = item)
                 is String -> AdBanner(
                     onDismiss = onDismissBanner,
                     isSticky = false

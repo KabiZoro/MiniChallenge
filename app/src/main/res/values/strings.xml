@@ -36,4 +36,14 @@
     <string name="dance_floor_details">The DJ starts the music. Time to dance!</string>
     <string name="goodbyes_details">Party concludes. Thank you for celebrating with us!</string>
 
+    <string name="switch_language">Switch to Arabic</string>
+    <string name="guess_vincent_sneakers">Guess VINCENT Sneakers</string>
+    <string name="armani_t_shirt">Armani T-shirt</string>
+    <string name="hoodie_with_shirt">Hoodie with shirt 2-pack</string>
+    <string name="gant_cotton_t_shirt">Gant Cotton T-Shirt</string>
+    <string name="united_colors_of_benetton_cotton_shirt">United Colors of Benetton Cotton Shirt</string>
+    <string name="armani_exchange_t_shirt_2_pack">Armani Exchange T-Shirt 2-pack</string>
+    <string name="armani_exchange_t_shirt">Armani Exchange T-Shirt</string>
+    <string name="daniel_wellington">Daniel Wellington</string>
+
 </resources>
