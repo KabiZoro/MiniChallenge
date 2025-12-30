@@ -22,6 +22,7 @@ import com.kabi.minichallenge.june25BdayCeleb.CountdownCakeScreen
 import com.kabi.minichallenge.june25BdayCeleb.GiftMemoryMatchScreen
 import com.kabi.minichallenge.june25BdayCeleb.PartyHostDashBoard
 import com.kabi.minichallenge.nov25BlackFriday.GlobalBlackFridayDeals
+import com.kabi.minichallenge.nov25BlackFriday.NavigationRoot
 import com.kabi.minichallenge.nov25BlackFriday.ProductMainScreen
 import com.kabi.minichallenge.nov25BlackFriday.StockTrackerScreen
 import com.kabi.minichallenge.sept25DesignTheFest.AccessibilityScreen
@@ -76,7 +77,10 @@ class MainActivity : ComponentActivity() {
                     /*ProductMainScreen(
                         modifier = Modifier.padding(innerPadding)
                     )*/
-                    GlobalBlackFridayDeals(
+                    /*GlobalBlackFridayDeals(
+                        modifier = Modifier.padding(innerPadding)
+                    )*/
+                    NavigationRoot(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
